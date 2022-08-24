@@ -1,5 +1,5 @@
-num = int(input("Digite um número inteiro: "))
-if (num % 3) and (num % 5) == 0:
-    print("FizzBuzz")
+numero = int(input('Digite um número: '))
+if ((numero%5) == 0) and ((numero%3) == 0):
+  print("FizzBuzz")
 else:
-    print(num)
+  print(numero)
