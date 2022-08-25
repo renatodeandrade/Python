@@ -1,2 +1,9 @@
-m = int(input('Digite o número de metros: '))
-print('O valor em centímetros é {:.0f}.\n O valor em milímetros é {:.0f}.'.format(m*100, m*1000))
+medida = int(input('Digite a distância metros: '))
+km = medida/1000
+hm = medida/100
+dam = medida/10
+m = medida
+dm = medida * 10
+cm = medida * 100
+mm = medida * 1000
+print(f'As escalas de quilômetro até milimetro deste valor em metros é de: \n{km}\n{hm}\n{dam}\n{m}\n{dm}\n{cm}\n{mm}')
